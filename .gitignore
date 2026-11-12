@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# cached dataset
+data/*
+!data/.gitkeep
+
+# trained models can be large - retrain locally with `python -m src.train`
+models/*
+!models/.gitkeep
