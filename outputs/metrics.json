@@ -1,0 +1,13 @@
+{
+  "dataset": "mnist",
+  "best_model": "SVM (RBF)",
+  "best_params": {
+    "C": 10,
+    "gamma": "scale"
+  },
+  "tuning_cv_accuracy": 0.9528,
+  "test_accuracy": 0.9837,
+  "train_samples": 60000,
+  "test_samples": 10000,
+  "final_train_seconds": 262.0
+}
